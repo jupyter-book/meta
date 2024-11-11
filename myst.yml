@@ -4,12 +4,16 @@ version: 1
 site:
   template: book-theme
   nav: 
-    - title: Home
+    - title: Docs
       url: https://next.jupyterbook.org
-    - title: Compass
-      url: https://compass.jupyterbook.org
     - title: Blog
       url: https://blog.jupyterbook.org
+    - title: About
+      children:
+      - title: Team Compass
+        url: https://compass.jupyterbook.org
+      - title: MyST Ecosystem
+        url: https://mystmd.org  
   actions:
     - title: MyST Markdown
       url: https://mystmd.org
